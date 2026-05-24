@@ -26,7 +26,7 @@ function startVoice() {
   }
 
   const recognition = new SpeechRecognition();
-  recognition.lang = "en-US";
+  recognition.lang = "ja-JP";
   recognition.interimResults = false;
   recognition.continuous = false;
 
