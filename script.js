@@ -48,3 +48,5 @@ function startVoice() {
 }
 
 selectChord("c");
+document.getElementById("voiceBtn")
+.addEventListener("click", startVoice);
