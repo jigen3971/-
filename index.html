@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ウクレレコードアプリ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>ウクレレコードアプリ</h1>
+
+  <div class="main-buttons">
+    <button onclick="selectChord('c')">C</button>
+    <button onclick="selectChord('d')">D</button>
+    <button onclick="selectChord('e')">E</button>
+    <button onclick="selectChord('f')">F</button>
+    <button onclick="selectChord('g')">G</button>
+    <button onclick="selectChord('a')">A</button>
+    <button onclick="selectChord('b')">B</button>
+  </div>
+
+  <div id="subButtons" class="sub-buttons"></div>
+
+  <div class="viewer">
+    <img id="chordImage" src="images/c/c.jpg" alt="コード画像">
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

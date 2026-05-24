@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: sans-serif;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 24px;
+}
+
+.main-buttons,
+.sub-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+button {
+  border: none;
+  border-radius: 14px;
+  background: #ffc85c;
+  padding: 14px 22px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.sub-buttons button {
+  background: #ffb52e;
+}
+
+.viewer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#chordImage {
+  width: 260px;
+  max-width: 90%;
+  background: white;
+  padding: 16px;
+  border-radius: 18px;
+}
